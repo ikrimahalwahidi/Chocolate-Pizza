@@ -1,0 +1,65 @@
+
+body{
+    background-color: whitesmoke;
+    width: 75%;
+    margin: 0px auto 0px auto;
+    
+}
+
+.title{     
+    margin-right: 20px;
+    float: left;
+    width: 300px;
+    margin-top: 10px;
+}
+.images{
+    position: absolute;
+    top: 0px;
+    right: 265px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+
+}
+.picture2{
+    position: relative;
+    /* top: 0px; */
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+
+}
+main p{
+    clear: both;
+}
+   
+
+
+.container{
+    /* width: 75%; */
+    position: relative;
+    /* margin: 0px auto 0px auto; */
+    
+    background-repeat: no-repeat;
+
+}
+.column{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    background-image: url(image/list-bg.png);
+
+
+}
+footer{
+    clear: both;
+}
+
+.footer{
+    width: 350px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    
+}
+
+

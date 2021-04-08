@@ -6,20 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="title">
-            <img src="image/logo.png" alt="logo" alignment="left">
-            <h1>
-                Delicious
-            </h1>
+            <img src="image/logo.png" alt="logo" align="left" style="padding-right: 10px;">
+            
             <p>
-                THE BEST FOOD ON THE WEB
+               <b >Delicious</b> <br>
+               <em style="opacity: 50%;">THE BEST FOOD ON THE WEB</em> 
             </p>
         </div>
-        <div class="picture">
+
+        <div class="images">
+
             <img src="image/fb-icon.png" alt="1">
             <img src="image/twit-icon.png" alt="2">
             <img src="image/gp-icon.png" alt="3">
@@ -28,6 +30,7 @@
             <img src="image/pint-icon.png" alt="6">
 
         </div>
+        
         <div class="picture2">
             <img src="image/rss-icon.png" alt="1">
             <img src="image/mail-icon.png" alt="2">
@@ -36,13 +39,11 @@
 
     </header>
     <main>
-        <h2>
-            Chocolate Pizza
-
-        </h2>
         <p>
-            POSTED ON 15 DEC 2013 /DESSERTS
+            <b >Chocolate Pizza</b> <br>
+               <em style="opacity: 50%; font-size: 10px;">POSTED ON 15 DEC 2013 /DESSERTS</em> 
         </p>
+        
         <img src="image/print-icon.png" alt="1">
         <img src="image/choco-pizza.png" alt="Pizza">
 
@@ -51,44 +52,95 @@
             eveniet ipsam provident repellendus suscipit vel distinctio nulla dolore ab quam, totam ratione molestiae
             eaque.
             <br>
+
+            <br>
+
+
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur eligendi expedita tempora quos nisi?
             Cumque obcaecati consectetur facere ratione autem quos id sunt quibusdam eos! Obcaecati dolore debitis
             ducimus sit.
             <br>
+            <br>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis modi minus accusantium amet quo nulla
             unde nihil quia sit saepe magnam ut, repellat blanditiis eaque nemo. Voluptatem tempora amet voluptas!
         </p>
+        <div class="container">
 
-        <div class="orderlist">
-            <ul>11/2 Cuos milk</ul>
-            <ul>1/2 cup masscarpone</ul>
-            <ul>1/2 tsp pink salt</ul>
-            <ul>1 lb Black Mission sugar</ul>
-            <ul> 1/2 cub brown sugar</ul>
-            <ul> 2-4 tbsp water</ul>
+            <div class="column">
+                <form action="">
+                    
+                    <input type="checkbox" id="one" name="one" value="one">
+                    <label for="one"> 1 1/2 Cups milk</label><br>
+                    <br>
+
+                    <input type="checkbox" id="two" name="two" value="two">
+                    <label for="two"> 1/2 cup masscarpone</label><br>
+                    <br>
+                    <input type="checkbox" id="three" name="three" value="three">
+                    <label for="three"> 1/2 tsp pink salt</label><br>  
+                    <br>              
+
+                    <input type="checkbox" id="five" name="five" value="five">
+                    <label for="five"> 1/2 lb Black Mission sugar</label><br>
+                    <br>
+
+                    <input type="checkbox" id="six" name="six" value="six">
+                    <label for="six"> 1/2 cub brown sugar</label><br>
+                    <br>
+
+                    <input type="checkbox" id="seven" name="seven" value="seven">
+                    <label for="seven"> 2-4 tbsp water</label><br>               
+                </form>                     
 
 
-        </div>
-        <div class="orderlist">
-            <ul>11/2 cups heavy cream</ul>
-            <ul>4/3 granulated sugar</ul>
-            <ul>2 egg yolks</ul>
-            <ul>1 lemon ,juiced</ul>
-            <ul>2 tbsp butter</ul>
-            <ul>1 cup honey roasted pecans , roughly chopped</ul>
+            </div>
+
+        <div class="column">
+
+                <form action="">
+                        
+                    <input type="checkbox" id="one" name="one" value="one">
+                    <label for="one"> 1 1/2 cups heavy cream </label><br>
+                    <br>
+
+                    <input type="checkbox" id="two" name="two" value="two">
+                    <label for="two"> 1/3 granulated sugar</label><br>
+                    <br>
+                    
+                    <input type="checkbox" id="three" name="three" value="three">
+                    <label for="three"> 2 egg yolks</label><br>
+                    <br>
+
+                    <input type="checkbox" id="fore" name="fore" value="fore">
+                    <label for="fore"> 1 lemon ,juiced</label><br>
+                    <br>
+
+                    <input type="checkbox" id="fore" name="fore" value="fore">
+                    <label for="fore"> 2 tbsp butter</label><br>
+                    <br>            
+                    
+                    <input type="checkbox" id="seven" name="seven" value="seven">
+                    <label for="seven"> 1 cup honey roasted pecans , roughly chopped</label><br> 
+                    <br>              
+                </form>
+            
+            </div>
         </div>
     </main>
     <footer>
+        <img src="image/van-pic.png" alt="van" align="left">
         <p>
          <b>Vanessa Stevenson</b> 
             <br>
             Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
         </p>
-        <img src="image/van-pic.png" alt="van">
-        <img src="image/small-logo.png" alt="small logo">
-            
-       <p> Delicious &copy; 2013 . All Rights Reserved.</p>
-       <p>Proudly published with Ghost</p>
+        <div class="footer">
+        
+            <img src="image/small-logo.png" alt="small logo">
+                
+            <p> Delicious &copy; 2013 . All Rights Reserved.</p>
+            <p>Proudly published with Ghost</p>
+       </div>
     </footer>
 </body>
 
